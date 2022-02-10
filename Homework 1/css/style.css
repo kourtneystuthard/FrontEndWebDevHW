@@ -1,0 +1,39 @@
+body {
+    color: #020203;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    background: rgb(241, 242, 246);
+  }
+  
+  p {
+    font-family: Georgia,Times,"Times New Roman",serif;
+  }
+  
+  header {
+    border-top: 5px solid #0e0d0d;
+    padding: 0 100px;
+  }
+  
+  article {
+    border-bottom: 5px solid #0e0d0d;
+    padding: 0 20px;
+  }
+  
+  article img {
+    float: right;
+    margin-left: 20px;
+  }
+  
+  th {
+    background: rgb(7, 1, 54);
+    color: white;
+    padding: 15px;
+  }
+  
+  td {
+    background: rgb(221, 211, 240);
+    padding: 15px;
+  }
+  
