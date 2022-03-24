@@ -1,0 +1,76 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Perfect Plants Quiz">
+    <link href="http://fonts.googleapis.com/css?family=Fredoka:400,700" rel="stylesheet" type="text/css">
+
+    <title>Perfect Plants</title>
+
+    <!-- external CSS link -->
+
+    <link rel="stylesheet" href="style.css">
+    <link href="normalize.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+    <title>Perfect Plants</title>
+
+    <header class="plantHeader">
+        <div class="plantHeaderInner"> 
+            <h1 class="leftNav"><a href=".html">Perfect Plants</a></h1>
+        </div>
+    </header>
+
+
+
+    <form>
+    <h1>What kind of lighting do you have?</h1>
+   
+    <div id="Question_1">
+        <main class="plantQuestions1">
+            <section class="plantQuestions1">
+<input class="button-37-2" role="button"  input type="radio" value = "A" name="light" id="choiceA"><label for="choiceA">Low</label>
+<input class="button-37-2" role="button" input type="radio" value = "B" name="light" id="choiceB"><label for="choiceB">Medium</label>
+<input class="button-37-2" role="button" input type="radio" value = "C" name="light"  id="choiceC"><label for="choiceC">Bright</label>
+</section>
+</main>
+</div>
+
+
+
+<h1>How much effort do you want to put in?</h1>
+
+<div id="Question_2">
+<main class="plantQuestions2">
+    <section class="plantQuestions2">
+<input class="button-37-3" role="button"  input type="radio" value = "D" name="effort" id="choiceD" ><label for="choiceD">Zero to Low Effort</label>
+<input class="button-37-3" role="button" input type="radio" value = "E" name="effort"  id="choiceE"><label for="choiceE">Medium to High Effort</label>
+</section>
+</main>
+</div>
+
+</form>
+
+<div id="submit">
+<h1>Meet your Destiny!</h1>
+<main class="plantQuestions3">
+    <section class="plantQuestions3">
+<button class="button-37-1" role="button" id="submit" button onclick="showResults();">Submit</button>
+</section>
+</main>
+</div>
+
+
+<div class="collapse">
+    <h1 id='decision'>Result</h1>
+  </div>
+</main>
+
+<p id='quizResults' class="quizResultsElement"></p>
+
+
+<script src="quiz.js" charset="utf-8"></script>
+
+</body>
+</html>

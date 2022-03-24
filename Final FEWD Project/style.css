@@ -1,0 +1,473 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Plant Home */
+
+
+
+.plantHome {
+  margin: 0 10px 10px 10px;
+  display:flex;
+  margin-bottom: 10px;
+  width: 50%;
+  margin: 0 0 0 10px;
+}
+
+
+.plantHome .plantHome1 {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.plantHome1   {
+  margin: 1 0px 10px 10px 10px;
+}
+
+.plantHome1  {
+  display:flex;
+  margin-bottom: 10px;
+
+  width: 100%;
+  justify-content: center;
+}
+
+
+.plantHome2  {
+  margin: 0px 0px 0px 0px;
+}
+
+.plantHome2  {
+  display:flex;
+  margin-bottom: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.plantHome3  {
+  margin: 0 10px 10px 10px;
+}
+
+.plantHome3  {
+  display:flex;
+  margin-bottom: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.plantHome2  {
+  display:flex;
+  margin-bottom: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.plantHome4  {
+  margin: 0 10px 10px 10px;
+}
+
+.plantHome4  {
+  display:flex;
+  margin-bottom: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+
+
+
+/* Plant Questions */
+
+.plantQuestions {
+  margin: 0 10px 10px 10px;
+  display:flex;
+  margin-bottom: 10px;
+  width: 50%;
+  margin: 0 0 0 10px;
+}
+
+
+.plantQuestions .plantQuestions1:first-child {
+  margin-left: 0;
+}
+
+
+.plantQuestions1  {
+  margin: 1 0px 10px 10px 10px;
+}
+
+.plantQuestions1 {
+  display:flex;
+  margin-bottom: 10px;
+
+  width: 100%;
+  justify-content: center;
+}
+
+
+.plantQuestions2 {
+  margin: 0 10px 10px 10px;
+}
+
+.plantQuestions2 {
+  display:flex;
+  margin-bottom: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.plantQuestions3 {
+  margin: 0 10px 10px 10px;
+}
+
+.plantQuestions3 {
+  display:flex;
+  margin-bottom: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+
+
+
+/* Body */
+
+body {
+    color: #043049;
+    font-family: sans-serif;
+    font-size: 26px;
+    line-height: 1.4;
+    color: #606161;
+    font-family: sans-serif;
+    font-weight: 300;
+    background: rgb(243, 246, 244);
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family:  "Fredoka", sans-serif;
+    padding: 10px 10px 10px 10px;
+    margin: 0px;
+    text-align: center;
+    color: rgb(14, 116, 65);
+  }
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+  font-family:  "Fredoka", sans-serif;
+  padding: 30px 15px 15px 15px;
+  margin: 10px;
+  text-align: center;
+  color: rgb(14, 116, 65);
+ 
+}
+
+
+/* Header */
+
+.plantHeader {
+  display: flex;
+  
+  }
+
+.plantHeader {
+    position:relative;
+    background-color: rgb(59, 124, 72);
+    color:  rgb(217, 241, 222);;
+    font-family: "Fredoka", sans-serif;
+    overflow: hidden;
+    border-bottom: 4px solid rgb(11, 129, 25);
+    overflow: hidden;
+    margin: 0;
+}
+
+.plantHeaderInner {
+    max-width:400px;
+    padding: 5px 5px 5px 5px;
+}
+
+.plantHeaderInner h1 {
+  font-weight: lighter;
+    margin:0;
+    font-size: 30px;
+}
+
+
+
+/* divs*/
+
+div .Question_1 {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  text-align: center;
+ }
+
+
+div .Question_2 {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  text-align: center;
+
+ }
+
+ div .collapse 
+ {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  text-align: center;
+
+ }
+
+
+
+/*button Home*/
+
+.button-37-1 {
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Fredoka", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10 10 10 10;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-37-1 {
+  margin: 101;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+  text-align: center;
+}
+
+.button-37-1:hover {
+  box-shadow: rgba(15, 102, 8, 0.15) 0 3px 9px 0;
+  background-color: #063f1e;
+  transform: translateY(-2px);
+}
+
+
+.button-37-1:focus {
+  background-color: #053d1c;
+  transform: translateY(-2px);
+}
+
+.button-37-1 :active{
+color: #043049;
+}
+
+
+@media (min-width: 768px) {
+  .button-37-1 {
+    padding: 10px 30px;
+  }
+}
+
+
+/*button Q1*/
+
+.button-37-2 {
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Fredoka", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  outline: none; 
+  outline: 0;
+  padding: 10 10 10 10;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-37-2 {
+  margin: 101;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+
+.button-37-2:hover {
+  box-shadow: rgba(15, 102, 8, 0.15) 0 3px 9px 0;
+  background-color: #14d464;
+  transform: translateY(-2px);
+}
+
+
+.button-37-2:focus {
+  background-color: #053d1c;
+  transform: translateY(-2px);
+}
+
+.button-37-2 :active{
+color: #043049;
+}
+
+
+@media (min-width: 768px) {
+  .button-37-2 {
+    padding: 10px 30px;
+  }
+}
+
+
+
+
+
+
+
+/*button Q2*/
+
+.button-37-3 {
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Fredoka", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10 10 10 10;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-37-3 {
+  margin: 101;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+
+.button-37-3:hover {
+  box-shadow: rgba(15, 102, 8, 0.15) 0 3px 9px 0;
+  background-color: #14d464;
+  transform: translateY(-2px);
+}
+
+
+.button-37-3:focus {
+  background-color: #053d1c;
+  transform: translateY(-2px);
+}
+
+.button-37-3 :active{
+color: #043049;
+}
+
+
+@media (min-width: 768px) {
+  .button-37-3 {
+    padding: 10px 30px;
+  }
+}
+
+
+
+/* Images */
+img {
+  width: 100%;
+  max-height: 100%;
+  height: auto;
+ margin: 0;
+padding: 0 0 0 0;
+}
+
+.plantHomeImage {
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  flex:3;
+  overflow:hidden;
+  float: none;
+  text-decoration: none;
+  max-height: max-content;
+
+}
+
+
+
+
+
+
+/*input*/
+
+
+
+
+input[type="radio"]:checked + label {
+  background-color:rgb(182, 214, 182);
+  border-color: rgb(4, 39, 4);
+  padding: 10;
+
+}
+
+input[type="radio"]:focus + label {
+  background-color:rgb(182, 214, 182);
+  
+}
+
+input label {
+  display: inline-block;
+  background-color: #ddd;
+  padding: 10px 20px;
+  font-family: sans-serif, Arial;
+  font-size: 16px;
+  border: 2px solid #444;
+  border-radius: 4px;
+
+}
+
+
+
+
+.Question_1 input[type="radio"] {
+    float: left;
+    margin: 0 5px 0 0;
+    width: 100px;
+    height: 40px;
+    position: relative;
+  }
+
+.collapse{
+padding: 0 100 100 100;
+}

@@ -1,0 +1,73 @@
+html {
+    font-size: 100%; /* 1 */
+    -ms-text-size-adjust: 100%; /* 2 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+
+
+html,
+button,
+input,
+select,
+textarea {
+    font-family: "Fredoka";
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+    display: block;
+}
+
+p,
+pre {
+    margin: 1em 0;
+    padding-left: 100;
+    padding-right: 100;
+    font-weight: lighter;
+}
+
+
+
+h1 {
+    font-size: 40px;
+    margin: 0.67em 0;
+}
+
+h1, .decision {
+    font-weight: lighter;
+}
+
+.leftNav {
+    color: white
+}
+
+
+
+a {
+color: white
+
+}
+
+
+button-37 {
+    margin: 1em 0;
+    display: flex;
+  justify-content: center;
+}
+
+input {
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+}
+
+html,body {
+    margin:0;
+    padding:0;
+}
+
